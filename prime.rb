@@ -1,5 +1,5 @@
 # Add  code here!
-def is_prime?(num)
-  return if num <= 1
-  (2..Math.sqrt(num)).none? { |i| (num % i).zero? }
+def is_prime?(prime?)
+  return if prime? <= 1
+  (2..Math.sqrt(prime?)).none? { |i| (prime? % i).zero? }
 end
